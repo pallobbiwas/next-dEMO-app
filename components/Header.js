@@ -9,7 +9,9 @@ function Header({ children }) {
         <div className="drawer-content flex flex-col">
           <div className="w-full navbar bg-base-300">
             <div className="flex-1 px-2 mx-2">
-                <p className="text-2xl font-bold"><span className="text-5xl text-pink-600">d</span>EMO</p>
+              <p className="text-2xl font-bold">
+                <span className="text-5xl text-pink-600">d</span>EMO
+              </p>
             </div>
             <div className="flex-none lg:hidden">
               <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
@@ -31,11 +33,15 @@ function Header({ children }) {
 
             <div className="flex-none hidden lg:block">
               <ul className="menu menu-horizontal">
-                <li className="font-bold rounded-lg">
-                  <Link className="rounded-lg" href="/home">Home</Link>
+                <li className="font-bold">
+                  <Link href="/home">
+                    <a className="rounded-lg">About</a>
+                  </Link>
                 </li>
                 <li className="font-bold">
-                  <a className="rounded-lg">About</a>
+                  <Link href="/about">
+                    <a className="rounded-lg">About</a>
+                  </Link>
                 </li>
                 <li className="font-bold">
                   <a className="rounded-lg">Team</a>

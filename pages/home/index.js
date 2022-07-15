@@ -1,12 +1,16 @@
-import React from 'react'
-import Homes from "../../components/Homes"
+import React from "react";
+import Banner from "../../components/Banner";
+import Homes from "../../components/Homes";
+import OurTeam from "../../components/OurTeam";
 
 function Home() {
   return (
     <div>
-        <Homes />
+      <Banner />
+      <Homes />
+      <OurTeam />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

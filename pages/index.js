@@ -1,7 +1,5 @@
 import Head from "next/head";
 import Banner from "../components/Banner";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import Homes from "../components/Homes";
 import OurTeam from "../components/OurTeam";
 
@@ -16,12 +14,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header>
-          <Banner />
-          <Homes />
-          <OurTeam />
-          <Footer />
-        </Header>
+        <Banner />
+        <Homes />
+        <OurTeam />
       </main>
     </div>
   );
