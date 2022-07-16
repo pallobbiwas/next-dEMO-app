@@ -17,7 +17,7 @@ function Homes() {
               <img
                 src={p.img}
                 className="max-w-sm w-full h-80 rounded-lg shadow-2xl"
-              />
+              alt=""/>
               <div className="ml-20">
                 <h1 className="text-5xl font-bold">{p.name}</h1>
                 <p className="py-6">{p.pera}</p>

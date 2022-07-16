@@ -4,7 +4,7 @@ function Banner() {
   return (
     <div className="bg-pink-100">
       <section>
-        <div className="px-72 py-60 text-center">
+        <div className="md:px-72 py-60 text-center">
           <h1 className="text-5xl font-bold mb-3">
             Lorem ipsum dolor lprea,3 sit amet.
           </h1>
